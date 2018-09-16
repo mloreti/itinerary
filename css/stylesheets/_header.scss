@@ -1,0 +1,46 @@
+.btn {
+  margin: 0;
+  padding: 2px 5px 2px 5px;
+  top: -3px;
+  margin-left: 5px;
+}
+.newName {
+  background: #eaeaea;
+  padding: 20px 0 20px 190px;
+  margin: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  p{
+    margin: 6px 0 0 0;
+    padding: 0;
+    font-weight: 700;
+  }
+  input {
+    margin-bottom: 2px;
+  }
+}
+iframe {
+  position: absolute;
+  top: 154px;
+  left: 0;
+  z-index: 999;
+}
+.mapicon {
+  background-color: $flights;
+  color: white;
+  border-radius: 13px;
+  top: -2px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+  color: #e3e3e3;
+}
+.projectName {
+  background-color: rgb(33, 85, 105);
+  background-image: url("../img/World_map_with_points.png");
+  background-size: cover;
+  background-position: center; 
+  padding: 20px 0px 20px 190px;
+  color: white;
+  margin-bottom: 45px;
+}

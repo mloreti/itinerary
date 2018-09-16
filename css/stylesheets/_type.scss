@@ -1,0 +1,42 @@
+h1, h2, h3, h4, p {
+  font-family: 'Roboto', Sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.75em;
+}
+p {
+  font-size: 1.25em;
+}
+
+form p {
+  margin: 5px 0 0 0;
+}
+
+.container {
+  margin-top: 20px;
+  width: 925px;
+}
+.smallCaps {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #919191;
+  font-size: .8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.flightTitle {
+  margin-top: 50px;
+}
+.clear {
+  margin-bottom: 40px;
+}

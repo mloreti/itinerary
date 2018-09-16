@@ -1,0 +1,79 @@
+@import 'colors';
+
+body, html {
+    height: 100%;
+}
+.form {
+  background: blue;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left:0;
+  position: absolute;
+  z-index: 999;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.add {
+  float: right;
+  position: fixed;
+  z-index: 9999;
+  right: 5px;
+  top: 5px;
+  color: #2ecc71;
+  font-size: 28px;
+  &:hover{
+    color:#27ae60;
+  }
+}
+.glyphicon-remove-circle{
+  color: white;
+  &:hover{
+    color:#e3e3e3;
+  }
+}
+.container-fluid {
+  padding: 0;
+}
+.flights, .hotels, .cars, .row {
+  height: 100%;
+  color: white;
+  margin: 0;
+  @media(max-width:767px){
+   height: auto;
+  }
+}
+.flights, .hotels, .cars {
+  padding: 50px;
+  form{
+    input {
+      width: 98%;
+      background: rgba(0,0,0,0.1);
+      border: none;
+      color: #fff;
+      padding: 2% 2% 2% 5%;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+  .submit {
+      margin-top: 10px;
+      background: rgba(0,0,0,0.4);
+      padding: 2%;
+      &:hover {
+        color: rgba(255,255,255,0.7);
+      }
+    }
+}
+
+.flights {
+  background: $flights;
+}
+.hotels {
+  background: $hotels;
+}
+.cars {
+  background: $cars;
+}

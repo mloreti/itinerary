@@ -1,0 +1,44 @@
+@import 'colors';
+
+.card {
+  margin-bottom: 30px;
+  hr {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+.arrow {
+  font-size: 16px;
+  top: -1px;
+}
+.remove {
+  top: 18px;
+  right: 18px;
+  position: absolute;
+  background-color: #fff;
+  color: #9a9a9a;
+}
+
+.flight{
+    border-left: 7px solid $flights;
+}
+.hotel {
+  border-left: 7px solid $hotels;
+}
+.car {
+  border-left: 7px solid $cars;
+}
+.hotel.card{
+    min-height: 135px;
+}
+.flight.card{
+    min-height: 100px;
+}
+.rightCol{
+  text-align: right;
+  padding-right: 40px;
+}
+.vertical-align {
+    display: flex;
+    align-items: top;
+}

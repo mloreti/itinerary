@@ -1,0 +1,190 @@
+body, html {
+  height: 100%; }
+
+.form {
+  background: blue;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 999; }
+
+.hidden {
+  visibility: hidden; }
+
+.add {
+  float: right;
+  position: fixed;
+  z-index: 9999;
+  right: 5px;
+  top: 5px;
+  color: #2ecc71;
+  font-size: 28px; }
+  .add:hover {
+    color: #27ae60; }
+
+.glyphicon-remove-circle {
+  color: white; }
+  .glyphicon-remove-circle:hover {
+    color: #e3e3e3; }
+
+.container-fluid {
+  padding: 0; }
+
+.flights, .hotels, .cars, .row {
+  height: 100%;
+  color: white;
+  margin: 0; }
+  @media (max-width: 767px) {
+    .flights, .hotels, .cars, .row {
+      height: auto; } }
+
+.flights, .hotels, .cars {
+  padding: 50px; }
+  .flights form input, .hotels form input, .cars form input {
+    width: 98%;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: #fff;
+    padding: 2% 2% 2% 5%;
+    font-size: 16px;
+    font-weight: 300; }
+  .flights .submit, .hotels .submit, .cars .submit {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2%; }
+    .flights .submit:hover, .hotels .submit:hover, .cars .submit:hover {
+      color: rgba(255, 255, 255, 0.7); }
+
+.flights {
+  background: #56d383; }
+
+.hotels {
+  background: #ffcf44; }
+
+.cars {
+  background: #209cdf; }
+
+.card {
+  margin-bottom: 30px; }
+  .card hr {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+.arrow {
+  font-size: 16px;
+  top: -1px; }
+
+.remove {
+  top: 18px;
+  right: 18px;
+  position: absolute;
+  background-color: #fff;
+  color: #9a9a9a; }
+
+.flight {
+  border-left: 7px solid #56d383; }
+
+.hotel {
+  border-left: 7px solid #ffcf44; }
+
+.car {
+  border-left: 7px solid #209cdf; }
+
+.hotel.card {
+  min-height: 135px; }
+
+.flight.card {
+  min-height: 100px; }
+
+.rightCol {
+  text-align: right;
+  padding-right: 40px; }
+
+.vertical-align {
+  display: flex;
+  align-items: top; }
+
+.btn {
+  margin: 0;
+  padding: 2px 5px 2px 5px;
+  top: -3px;
+  margin-left: 5px; }
+
+.newName {
+  background: #eaeaea;
+  padding: 20px 0 20px 190px;
+  margin: 0;
+  left: 0;
+  width: 100%;
+  position: absolute; }
+  .newName p {
+    margin: 6px 0 0 0;
+    padding: 0;
+    font-weight: 700; }
+  .newName input {
+    margin-bottom: 2px; }
+
+iframe {
+  position: absolute;
+  top: 154px;
+  left: 0;
+  z-index: 999; }
+
+.mapicon {
+  background-color: #56d383;
+  color: white;
+  border-radius: 13px;
+  top: -2px; }
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #e3e3e3; }
+
+.projectName {
+  background-color: #215569;
+  background-image: url("../img/World_map_with_points.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0px 20px 190px;
+  color: white;
+  margin-bottom: 45px; }
+
+h1, h2, h3, h4, p {
+  font-family: 'Roboto', Sans-serif; }
+
+h1 {
+  font-weight: 300;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  letter-spacing: .05em; }
+
+h3 {
+  font-weight: 700;
+  font-size: 1.75em; }
+
+p {
+  font-size: 1.25em; }
+
+form p {
+  margin: 5px 0 0 0; }
+
+.container {
+  margin-top: 20px;
+  width: 925px; }
+
+.smallCaps {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #919191;
+  font-size: .8em;
+  font-weight: 400;
+  margin: 0; }
+
+.flightTitle {
+  margin-top: 50px; }
+
+.clear {
+  margin-bottom: 40px; }
+
+/*# sourceMappingURL=main.css.map */
